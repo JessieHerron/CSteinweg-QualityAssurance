@@ -1,11 +1,7 @@
-﻿using NUnit.Framework;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-using System;
+﻿using OpenQA.Selenium.Chrome;
 using System.Configuration;
-using System.IO;
 
-namespace AutomatedTests
+namespace QASandbox
 {
     public class ApplicationLauncher
     {

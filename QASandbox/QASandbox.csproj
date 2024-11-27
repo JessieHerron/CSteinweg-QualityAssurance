@@ -10,7 +10,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="ExportPlanner\UI\AuthenticationTests.cs" />
+    <None Include="TestHttpMessageHandler.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="Google.Apis.Auth" Version="1.68.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
     <PackageReference Include="Microsoft.Playwright.NUnit" Version="1.49.0" />
     <PackageReference Include="NUnit" Version="3.14.0" />

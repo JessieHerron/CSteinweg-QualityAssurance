@@ -1,7 +1,7 @@
 ﻿using OpenQA.Selenium.Chrome;
 using System.Configuration;
 
-namespace QASandbox
+namespace QASandbox.HttpHelpers
 {
     public class ApplicationLauncher
     {

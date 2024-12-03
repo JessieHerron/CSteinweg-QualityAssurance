@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -10,8 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="ExportPlanner\UI\AuthenticationTests.cs" />
-    <None Include="TestHttpMessageHandler.cs" />
+    <None Include="Tests\UI Tests\Export Planner Tests\AuthenticationTests.cs" />
   </ItemGroup>
 
   <ItemGroup>
